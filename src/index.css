@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 50px auto 200px;
+    grid-template-areas: 
+    "ribbon ribbon"
+    "toolbar canvas"
+    "toolbar timeline";
+}
+
+#ribbon {
+    grid-area: ribbon;
+    background: #888;
+}
+
+#toolbar {
+    grid-area: toolbar;
+    background: #bbb;
+}
+
+#timeline {
+    grid-area: timeline;
+    background: #666;
+}
+
+#canvas {
+    grid-area: canvas;
+    background: #ddd;
+}
