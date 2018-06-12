@@ -4,6 +4,12 @@
     "sourceMap": true,
     "noImplicitAny": true,
     "module": "commonjs",
-    "allowJs": true
+    "allowJs": true,
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "target": "es5"
   }
 }
